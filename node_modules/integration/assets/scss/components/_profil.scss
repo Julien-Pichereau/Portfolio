@@ -1,0 +1,77 @@
+.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgb(12, 12, 12);
+    block-size: fit-content;
+    
+
+    .profil__title {
+        font-size: 150%;
+        font-family: "Gagalin";
+        margin-top: 2%;
+    }
+    
+    .profil__tabs{
+        display: flex;
+        align-items: center;
+        margin-bottom: 8%;
+        
+        @include extra-small {
+            flex-direction: column;
+          }
+
+        .tabs__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            width: 50%;
+            margin: 0% 4%;
+            padding: 1%;              
+            background-color: $navBackgroundColor;
+            border-radius: 10px;
+            box-shadow: $colorFontShadow $shadow;
+            @include extra-small {
+                width: 90%;
+                margin: 4% 0%;
+                text-align: justify;
+              }
+
+        }
+
+        .tabs__canvas{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: 0% 1%;
+            padding: 1% 0%;
+            @include extra-small {
+                width: 90%;
+                margin: 1% 0%;
+            padding: 0% 1%;
+              }
+
+            #myCanvasContainer {
+                text-align: center;
+                max-width: 600px;
+            }
+            
+            #myCanvas {
+                width: 100%;
+            }
+
+            #tags {
+                display:none;
+            }
+
+        }
+    }
+}
