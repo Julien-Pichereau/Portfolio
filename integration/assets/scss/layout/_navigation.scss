@@ -212,6 +212,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
         position: fixed;
         top: 0;
         width: 100vw;
+        height: 10vh;
         display: flex;
         align-items: center;
         background-color: $navBackgroundColor;
@@ -226,7 +227,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
             align-items: center;
             place-self: center stretch;
             padding-inline: 5%;
-            block-size: 10vh;  
+            block-size: 8vh;  
 
             .logo__img {
                 height: 100%;
@@ -254,7 +255,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
             align-items: center;
 
             .ul__li {
-                padding: 3% 0;
+                padding: 1% 0;
                 width: 100%;
                 text-align: center;
                 font-family: 'Gagalin';

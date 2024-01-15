@@ -1,14 +1,18 @@
+// importation de la feuille de style
+
+@import './base/reset-css';
+
 // importation des fonts
 
-@import './abstracts/fonts';
+@import './base/fonts';
 
 // importation des couleurs
 
-@import './abstracts/colors';
+@import './utils/_colors';
 
 // importation des mixins
 
-@import './abstracts/mixins';
+@import './utils/mixins';
 
 // importation des styles globaux
 
@@ -17,7 +21,7 @@
 // importation de nos layouts
 
 @import './layout/header';
-@import './layout/nav';
+@import './layout/navigation';
 @import './layout/footer';
 
 // importation de nos composants
