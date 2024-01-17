@@ -1,0 +1,16 @@
+vendor
+wordpress
+index.php
+wp-config.php
+
+/wp-content/*
+!/wp-content
+/wp-content/themes/*
+!/wp-content/themes
+/wp-content/plugins/*
+!/wp-content/plugins
+
+!/wp-content/themes/portfolio
+!/wp-content/plugins/portfolio
+
+install.md
