@@ -1,0 +1,34 @@
+// importation de la feuille de style
+
+@import './base/reset-css';
+
+// importation des fonts
+
+@import './base/fonts';
+
+// importation des couleurs
+
+@import './utils/_colors';
+
+// importation des mixins
+
+@import './utils/mixins';
+
+// importation des styles globaux
+
+@import './layout/global';
+
+// importation de nos layouts
+
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/footer';
+
+// importation de nos composants
+
+@import './components/main';
+@import './components/404';
+@import './components/profil';
+@import './components/skills';
+@import './components/achievements';
+@import './components/contact';
