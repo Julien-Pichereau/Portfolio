@@ -1,0 +1,57 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/idees-mondiales-voyages-affaires-illuminees-carte-du-monde-generee-par-ia.jpg);
+
+
+    .contact__title {
+        font-size: 150%;
+        font-family: "Gagalin";
+        margin-top: 2%;
+        height: 10vh;
+    }
+    .contact__details {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+        width: 100vw;
+
+        @include extra-small {
+            flex-direction: column;
+        }
+
+        @include small {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            place-items: center;
+        }
+        
+        @include medium {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          }
+
+        .details__link {
+            margin: 0% 2%;
+            padding: 1%;              
+            background-color: $backgroundColorTools;
+            border-radius: 10px;
+            box-shadow: $colorBlackShadow $shadow;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .link__logo {
+                height: 10vh;
+            }
+        }  
+    } 
+}

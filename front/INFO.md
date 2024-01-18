@@ -8,7 +8,7 @@ A JavaScript framework for building user interfaces.
 
 In a new terminal, type the command :
 
-        `cd src`
+        `cd front/src`
 
 ### Run parcel on Vue.js
 
