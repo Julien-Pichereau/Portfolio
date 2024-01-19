@@ -2,7 +2,8 @@
   "dependencies": {
     "reset-css": "^5.0.2",
     "sass": "^1.70.0",
-    "vue": "^3.4.14"
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-vue": "^2.11.0"

@@ -1,16 +1,17 @@
 <template>
     <div> <!-- un seul élément par template (div, section, etc.) donc ici on met une div pour englober le header, le footer, etc... -->
-        <Header></Header>
-
-
-        <Footer></Footer>
+        <Header/>
+        <Home/>
+        <Footer/>
     </div>
 </template>
 
 <script>
 // import des composants dans une variable
-    import Header from "./components/Header.vue";
-    import Footer from "./components/Footer.vue";
+    import Header from "/components/Header.vue";
+    import Home from "/components/Home.vue";
+    import Footer from "/components/Footer.vue";
+
 // export du composant
     export default {
 
@@ -24,11 +25,12 @@
         components: {
 
             Header,
+            Home,
             Footer,
 
         },
         
-    }
+    };
 
 </script>
 
