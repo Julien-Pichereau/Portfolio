@@ -1,6 +1,8 @@
 .contact {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
     align-items: center;
     height: 100vh;
     background-attachment: fixed;
@@ -15,6 +17,7 @@
         font-family: "Gagalin";
         margin-top: 2%;
         height: 10vh;
+        opacity: 0.8;
     }
     .contact__details {
         display: flex;

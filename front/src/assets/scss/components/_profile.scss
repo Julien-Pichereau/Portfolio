@@ -1,4 +1,4 @@
-.profil {
+.profile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,13 +10,14 @@
     block-size: fit-content;
     
 
-    .profil__title {
+    .profile__title {
         font-size: 150%;
         font-family: "Gagalin";
         margin-top: 2%;
+        opacity: 0.8;
     }
     
-    .profil__tabs{
+    .profile__tabs{
         display: flex;
         align-items: center;
         margin-bottom: 8%;

@@ -3,6 +3,7 @@
     <!-- un seul élément par template (div, section, etc.). Par exemple, ici on met une div pour englober le reste du code ùais on pet avoir un header seulement, un footer, etc... -->
     
     <Section class="presentation">
+        <h1 class="presentation__title">Présentation</h1>
         <div class="presentation__box">
             <h1 class="presentation__name">Julien Pichereau</h1>
             <h2 class="presentation__jobTitle">DEVELOPPEUR WEB</h2>

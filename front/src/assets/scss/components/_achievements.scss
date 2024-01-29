@@ -10,11 +10,16 @@
     block-size: fit-content;
     padding-bottom: 2%;
 
+    @include huge {
+      block-size: 100vh;
+    }
+
     .achievements__title {
         font-size: 150%;
         font-family: "Gagalin";
         margin-top: 2%;
         margin-bottom: 2%;
+        opacity: 0.8;
     }
 
     .achievements__articles{
@@ -31,7 +36,7 @@
         }
 
         @include small {
-          grid-template-columns: 1fr;
+          grid-template-columns: repeat(2, 1fr);
         }
 
         @include medium {
@@ -121,7 +126,7 @@
     height: 5vh;
 
     @include extra-small {
-      border-radius: 10px;;
+      border-radius: 10px;
     }
 
     .tools__logo{

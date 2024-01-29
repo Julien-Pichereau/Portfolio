@@ -1,7 +1,7 @@
 <template>
     
         <footer class="footer">
-            <p class="thanks">Thank you !</p>
+            <p class="thanks">See you soon on the moon !</p>
         </footer>
 
 </template>

@@ -8,9 +8,16 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(./assets/images/conseils-exploration-suivent-rose-vents-generee-par-ia.jpg);
+
+    .presentation__title {
+        font-size: 150%;
+        font-family: "Gagalin";
+        //margin-top: 2%;
+        opacity: 0.8;
+    }
 
     .presentation__box {
 
@@ -61,10 +68,5 @@
 
         }
     }
-}
-
-.header__404 {
-    width: 0vw;
-    height: 0vh;
 }
 

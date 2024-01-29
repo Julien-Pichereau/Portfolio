@@ -4,40 +4,42 @@
             
             <nav id="nav">
 
-                <router-link  tag="a" class="logo" to="/">
-                <img class="logo__img" src="../assets/images/JP.png" alt="">
+                <router-link tag="a" to="/" class="logo">
+                  <img class="logo__img" src="../assets/images/JP.png" alt="">
                 </router-link>
-                        
+                <!--<a class="logo" href="#">
+                  <img class="logo__img" src="../assets/images/JP.png" alt="">
+                </a>-->
+                         
                 <input type="checkbox" class="toggler"/>
 
                 <div class="hamburger">
-                <div id="middleLineOfTheHamburger"></div>
+                  <div id="middleLineOfTheHamburger"></div>
                 </div>
                 
                 <div class="menu">
                     <div id="burger__open">
                         <ul class="nav__ul">
                             <li class="ul__li">
-                                <router-link tag="a" class="li__a" to="/présentation">Présentation</router-link>
+                                <a class="li__a" href="#">Présentation</a>
                             </li>
                             <li class="ul__li">
-                                <router-link tag="a" class="li__a" to="/profil">Profil</router-link>
+                                <a class="li__a" href="#profile">Profil</a>
                             </li>
                             <li class="ul__li">
-                                <router-link tag="a" class="li__a" to="/compétences">Compétences</router-link>
+                                <a class="li__a" href="#skills">Compétences</a>
                             </li>
                             <li class="ul__li">
-                                <router-link tag="a" class="li__a" to="/réalisations">Réalisations</router-link>
+                                <a class="li__a" href="#achievements">Réalisations</a>
                             </li>
                             <li class="ul__li">
-                                <router-link tag="a" class="li__a" to="/contact">Contact</router-link>
+                                <a class="li__a" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             
             </nav>
-
             
         </header>
 

@@ -1,9 +1,9 @@
 <template>
     
     <!-- un seul élément par template (div, section, etc.). Par exemple, ici on met une div pour englober le reste du code ùais on pet avoir un header seulement, un footer, etc... -->
-    <section id="profil" class="profil">
-        <h1 class="profil__title">Profil</h1>
-        <div class="profil__tabs">
+    <section id="profile" class="profile">
+        <h1 class="profile__title">Profil</h1>
+        <div class="profile__tabs">
             <div class="tabs__text">
                 <span>
                     <h1>Salut les p'tits z'amis du code !</h1>
