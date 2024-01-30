@@ -1,0 +1,74 @@
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/idees-mondiales-voyages-affaires-illuminees-carte-du-monde-generee-par-ia.jpg);
+
+    .contactForm {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 70vh;
+        width: 50vw;
+        
+
+        padding: 0%;  
+        background-color: $navBackgroundColor;
+        border-radius: 10px;
+        box-shadow: $colorBlackShadow $shadow;
+
+        .contactForm__title {
+            font-size: 150%;
+            font-family: "Gagalin";
+            display: flex;
+            align-items: center;
+        }
+
+        .form__fields {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30vw;
+            padding: 1% 0%;
+
+            #message {
+                height: 10vh;    
+            }
+
+            .form__fields__container {
+                width: 25vw;
+                border-radius: 5px;
+
+            }
+        }
+
+        .form__button {
+            height: 8vh;
+            width: 12vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $fontColor;
+            background-color: $colorOrangeShadow;
+            border-radius: 10px;
+            box-shadow: $colorBlackShadow $shadow;
+            font-family: "Gagalin";
+            font-size: 150%;
+        }
+        .form__button:hover {
+            animation: profile_image 2000ms linear both;
+            animation-delay: 0.2s;
+            color: $colorOrangeShadow;
+            background-color: $fontColor;
+        }
+
+    }
+}

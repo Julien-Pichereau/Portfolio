@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    
+    <div id="hidden__scroll">
+
+
+        <header>      
+            
+            <nav id="nav">
+
+                <a class="logo" href="#">
+                  <img class="logo__img" src="./assets/images/JP.png" alt="">
+                </a>
+                         
+                <input type="checkbox" class="toggler" />
+
+                <div class="hamburger">
+                  <div id="middleLineOfTheHamburger"></div>
+                </div>
+                
+                <div class="menu">
+                    <div id="burger__open">
+                        <ul class="nav__ul">
+                            <li class="ul__li">
+                                <a class="li__a" href="#profil">Profil</a>
+                            </li>
+                            <li class="ul__li">
+                                <a class="li__a" href="#skills">Compétences</a>
+                            </li>
+                            <li class="ul__li">
+                                <a class="li__a" href="#achievements">Réalisations</a>
+                            </li>
+                            <li class="ul__li">
+                                <a class="li__a" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </nav>
+            
+        </header>
+        
+        <main class="main">
+            <section class="contactForm">
+
+                <h1 class="contactForm__title">Formulaire de contact</h1>
+                <form class="form" method="POST">
+                    <div class="form__fields">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" class="form__fields__container" name="name" placeholder="Engus McGuiver" required>
+                    </div>
+
+                    <div class="form__fields">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form__fields__container" name="email" placeholder="mc.guiver@phxfdation.com" required>
+                    </div>
+
+                    <div class="form__fields">
+                        <label for="telephone">Téléphone</label>
+                        <input type="text" id="telephone" class="form__fields__container" name="telephone" placeholder="+33 6 5X 0X 4Y 84">
+                    </div>
+
+                    <div class="form__fields">
+                        <label for="company">Entreprise</label>
+                        <input type="text" id="company" class="form__fields__container" name="compagny" placeholder="Fondation Phoenyx">
+                    </div>
+
+                    <div class="form__fields">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form__fields__container" name="message" placeholder="Hy Pet, Call me back. Engus" required></textarea>
+                    </div>
+
+                    
+                </form>
+                
+            
+                    <button class="form__button" type="submit">Envoyer</button>
+                
+
+            </section>
+            
+            
+        </main>
+
+        <script src="./main.js" type="module"></script>
+
+    </div>
+       
+</body>
+</html>
