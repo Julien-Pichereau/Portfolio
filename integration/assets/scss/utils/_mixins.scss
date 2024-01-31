@@ -10,7 +10,7 @@
 // on doit un nom à la mixin, ici "small"
 @mixin small {
     @media screen and (min-width: 769px) {
-        // content va reprendre le contenu des accolades qu'on l'on pose avec le @include
+        // content va reprendre le contenu des accolades qu'on l'on pose avec le @include ex: @include small { flex-direction: column; }
         @content;
     }
 }

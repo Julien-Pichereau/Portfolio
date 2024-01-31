@@ -16,8 +16,13 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 70vh;
-        width: 50vw;
+        height: 60vh;
+        width: 70vw;
+
+        @include medium {
+            height: 70vh;
+            width: 50vw;
+        }
         
 
         padding: 0%;  
@@ -36,23 +41,33 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 30vw;
+            width: 50vw;
             padding: 1% 0%;
 
+            @include medium {
+                width: 30vw;
+            }
+
             #message {
-                height: 10vh;    
+                height: 15vh;   
             }
 
             .form__fields__container {
-                width: 25vw;
+                width: 30vw;
                 border-radius: 5px;
+                height: 5vh;
+
+                @include medium {
+                    width: 20vw;
+                    height: none;
+                }
 
             }
         }
 
         .form__button {
             height: 8vh;
-            width: 12vw;
+            width: 30vw;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -62,7 +77,12 @@
             box-shadow: $colorBlackShadow $shadow;
             font-family: "Gagalin";
             font-size: 150%;
+
+            @include medium {
+                width: 12vw;
+            }
         }
+
         .form__button:hover {
             animation: profile_image 2000ms linear both;
             animation-delay: 0.2s;
