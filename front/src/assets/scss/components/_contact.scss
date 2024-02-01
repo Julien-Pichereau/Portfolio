@@ -13,9 +13,10 @@
 
 
     .contact__title {
+        text-align: center;
         font-size: 150%;
         font-family: "Gagalin";
-        margin-top: 2%;
+        padding-top: 2%;
         height: 10vh;
         opacity: 0.8;
     }
@@ -23,7 +24,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        height: 90vh;
+        height: 70vh;
         width: 100vw;
 
         @include extra-small {
@@ -55,6 +56,11 @@
             .link__logo {
                 height: 10vh;
             }
+
         }  
-    } 
+    }
+
+    .button {
+        border: none;  //supprime le cadre des TROIS boutons du formulaire de contact
+    }
 }

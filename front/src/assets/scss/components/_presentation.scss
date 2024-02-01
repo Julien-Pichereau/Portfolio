@@ -15,7 +15,6 @@
     .presentation__title {
         font-size: 150%;
         font-family: "Gagalin";
-        //margin-top: 2%;
         opacity: 0.8;
     }
 
@@ -32,7 +31,7 @@
 
         @include extra-small {
             margin: 0% 1%;
-            padding: 2%;
+            padding: 5%;
           }
 
         .presentation__name {

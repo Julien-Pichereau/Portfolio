@@ -7,14 +7,14 @@
             <div class="tabs__text">
                 <span>
                     <h1>Salut les p'tits z'amis du code !</h1>
-                    <p>Moi, c'est Julien. Un developpeur web fullstack fun et bigarré, frais et bien formé en quête de nouvelles aventures dans le monde merveilleux du dev.</p>
-                    <p>Que vous dire sur mes compétences... J'en ai trop ! Plus sérieusement, je vous parlais de quête précédemment. Cette dernière passe par la découverte des nouvelles technologies et leur mise en partique, la volonté permanente d'améliorer l'écriture de mon code à travers la qualité, l'accessibilité et l'évolutivité. </p>
+                    <p>Moi, c'est Julien. Un developpeur web fun et bigarré, frais et motivé en quête de nouvelles aventures dans le monde merveilleux du dev.</p>
+                    <p>Que vous dire sur mes compétences... J'en ai trop ! Plus sérieusement, je vous parlais d'une sombre histoire quête. Cette dernière passe par la découverte des nouvelles technologies et leur mise en partique, la volonté permanente d'améliorer l'écriture de mon code à travers la qualité, l'accessibilité et l'évolutivité.</p>
                 </span>
             </div>
             <div class="tabs__canvas">
                 <div  id = "myCanvasContainer"> 
                     <canvas width ="1200" height ="1200" id="myCanvas"> 
-                        <p> Tout ce qui s'y trouve sera remplacé sur les navigateurs prenant en charge l'élément canvas </p>
+                        <p> Tout ce qui s'y trouve sera remplacé sur les navigateurs prenant en charge l'élément canvas.</p>
                     </canvas> 
                 </div> 
                 <div id="tags"> 
@@ -152,18 +152,15 @@
 
 </template>
 
-<script>
+<script setup>
     import "/assets/js/tagcanvas.js";
 
-    export default {
-        
-    }
 
 </script>
 
 <style lang="scss" scoped>
 
-// scoped permet limiter les effets du style à ce composant uniquement etde ne pas avoir de conflit avec les autres composants
+// scoped permet limiter les effets du style à ce composant uniquement et de ne pas avoir de conflit avec les autres composants
 // => on le "bride" en le contextualisant à ce composant uniquement
 // => on s'assure donc que notre style ne cassera pas l'affichage d'un autre composant par effet de bord
 // => pour avoir les effets du style sur tout le site, on enlève le mot clé "scoped"

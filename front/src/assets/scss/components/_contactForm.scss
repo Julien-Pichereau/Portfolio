@@ -1,0 +1,154 @@
+.contactForm {
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60vh;
+    width: 70vw;  
+    background-color: $navBackgroundColor;
+    border-radius: 10px;
+    box-shadow: $colorBlackShadow $shadow;
+
+    @include medium {
+        height: 70vh;
+        width: 50vw;
+    }
+
+    #div__crossClose {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width:100%;
+
+    
+        #button__crossClose {
+            height: 5vh;
+            width: 5vw;
+            padding-right: 1%;
+            background-color: $clearColor;
+            border-radius: 10px;
+            color: $fontColor;
+            font-size: 200%;
+            font-family: "Gagalin";
+
+            @include medium {
+                padding-right: 0%;
+            }
+        }
+
+        #button__crossClose:hover {
+            animation: profile_image 2000ms linear both;
+            animation-delay: 0.2s;
+            color: $colorOrangeShadow;
+        }
+    }
+
+    .contactForm__title {
+        font-size: 150%;
+        font-family: "Gagalin";
+        display: flex;
+        align-items: center;
+
+        @include medium {
+            padding-bottom: 2%;
+        }
+    }
+
+    .form__fields {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50vw;
+        padding-bottom:1%;
+
+        @include medium {
+            width: 30vw;
+        }
+
+        #message {
+            height: 15vh;   
+        }
+
+        .form__fields__container {
+            width: 30vw;
+            border-radius: 5px;
+            height: 4vh;
+
+            @include medium {
+                width: 20vw;
+                height: none;
+            }
+
+        }
+    }
+
+    .form__mention {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50vw;
+
+        @include medium {
+            width: 30vw;
+        }
+
+        #label {
+            text-align: right;
+        }
+    }
+
+    #form__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include medium {
+            padding-top: 10%;
+        }
+
+        .form__button {
+            height: 4vh;
+            width: 15vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $fontColor;
+            background-color: $colorOrangeShadow;
+            border-radius: 5px;
+            box-shadow: $colorBlackShadow $shadow;
+            font-family: "Gagalin";
+            font-size: 120%;
+
+            @include medium {
+                height: 4vh;
+                width: 12vw;
+                font-size: 150%;
+            }
+        }
+    }
+
+    .form__button:hover {
+        animation: profile_image 2000ms linear both;
+        animation-delay: 0.2s;
+        color: $colorOrangeShadow;
+        background-color: $fontColor;
+    }
+
+    #notification {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $colorOrange;
+        background-color: $navBackgroundColor;
+        border-radius: 5px;
+        box-shadow: $colorBlackShadow $shadow;
+        font-family: "Gagalin";
+        font-size: 300%;
+        height: 20vh;
+        width: 40vw;
+        animation: profile_image 2000ms linear both;
+        animation-delay: 0.2s;
+    }
+
+}

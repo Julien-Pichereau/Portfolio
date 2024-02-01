@@ -21,7 +21,7 @@
 
                 <div class="profile-bio">
                     <a class="a__achievements" href="https://femmesavantes.com/" target="blank">On va voir ?</a>
-                    <p class="p__achievements">Site de la compagnie FemmeSavantes réalisé sur une base Wordpress avec le thème Divi. Ce site est ma première expérience de conception d'un site. Divi permet la construction de la partie front-end de sites internet en no-code.</p>
+                    <p class="p__achievements">Site de la compagnie FemmeSavantes réalisé sur une base Wordpress avec l'éditeur de thème Divi. Ce site est ma première expérience de conception d'un site. Divi permet la construction de la partie front-end de sites internet en no-code.</p>
                 </div>
             </article>
 
@@ -47,7 +47,7 @@
 
                 <div class="article profile-bio">
                     <a class="a__achievements" href="https://www.youtube.com/live/api6Qm4WWSM?feature=shared&t=1980" target="blank">On va voir ?</a>
-                    <p class="p__achievements">Mon projet de fin d’études lors ma formation chez O'clock. Durant 4 semaine intensives, notre équipe de quatre développeurs a pu réaliser ce site communautaire d’aide à la réalisation de travaux de bricolage. Il est construit sur la base de Wordpress en headless pour la partie back-end et Vue.js pour la partie front-end.</p>
+                    <p class="p__achievements">Mon projet de fin d’études lors ma formation chez O'clock. Durant 4 semaine intensives, notre équipe de quatre développeurs a pu réaliser ce site communautaire d’aide à la réalisation de travaux de bricolage. Il est construit sur une base Wordpress en headless pour la partie back-end et Sass/Vue.js pour la partie front-end.</p>
                 </div>
             </article>
 
@@ -74,7 +74,7 @@
 
                 <div class="profile-bio">
                     <a class="a__achievements" href="#" target="blank">On va voir ?</a>
-                    <p class="p__achievements">Ben... C'est mon portfolio quoi ! C'est mon troisième projet après celui de la fin de ma formation chez O'clock : Bricol'Help. Il est construit sur la base de Wordpress en headless pour la partie back-end et Vue.js pour la partie front-end.</p>
+                    <p class="p__achievements">Ben... C'est mon portfolio quoi ! C'est mon troisième projet. Il fait suite à celui de la fin de ma formation chez O'clock : Bricol'Help. Il est construit sur une base Wordpress en headless pour la partie back-end et Sass/Vue.js pour la partie front-end.</p>
                 </div>
             </article>
 
@@ -92,7 +92,7 @@
 
                 <div class="profile-bio">
                     <a class="a__achievements" shref="#" target="blank">Mais où peut-on voir se projet fabuleux ?</a>
-                    <p class="p__achievements">Et bien... Venez échanger avec moi ! Nous pourrons construire ensemble un projet de site qui ne manquera pas de.... Bon j'ai pas les mots là tout de suite là maintenant mais c'est sûre il va... Bref avec un peu d'humour on peut tout faire quoi ! &#129304;</p>
+                    <p class="p__achievements">Et bien... Venez échanger avec moi ! Nous pourrons construire ensemble un projet de site qui ne manquera pas de.... Bon j'ai pas les mots là tout de suite là maintenant mais c'est sûr ! Il va heu... Bref ! Avec un peu d'humour on peut tout faire quoi ! &#129304;</p>
                 </div>
             </article>
         </div>
@@ -100,17 +100,14 @@
 
 </template>
 
-<script>
+<script setup>
 
-    export default {
-
-    }
 
 </script>
 
 <style lang="scss" scoped>
 
-// scoped permet limiter les effets du style à ce composant uniquement etde ne pas avoir de conflit avec les autres composants
+// scoped permet limiter les effets du style à ce composant uniquement et de ne pas avoir de conflit avec les autres composants
 // => on le "bride" en le contextualisant à ce composant uniquement
 // => on s'assure donc que notre style ne cassera pas l'affichage d'un autre composant par effet de bord
 // => pour avoir les effets du style sur tout le site, on enlève le mot clé "scoped"

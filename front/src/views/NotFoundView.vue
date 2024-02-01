@@ -4,16 +4,8 @@
 
 </template>
 
-<script>
+<script setup>
     import NotFound from '/components/NotFound404.vue';
 
-    export default {
-
-        components: {
-            
-            NotFound,
-        
-        }
-
-    };
+    
 </script>

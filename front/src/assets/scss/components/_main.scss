@@ -20,5 +20,7 @@ body::-webkit-scrollbar {
     width: 100vw;
     color: $fontColor;
     background-color: $mainBackgroundColor;
+    display: flex;
+    flex-direction: column;
 }
 
