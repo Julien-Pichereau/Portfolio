@@ -46,6 +46,14 @@
                 margin: 4% 0%;
               }
 
+            #hello{
+                text-align: center;
+            }
+
+            #hello:after{
+                content : "\01F44B";
+            }
+
         }
 
         .tabs__canvas{

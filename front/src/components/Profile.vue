@@ -6,13 +6,13 @@
         <div class="profile__tabs">
             <div class="tabs__text">
                 <span>
-                    <h1>Salut les p'tits z'amis du code !</h1>
-                    <p>Moi, c'est Julien. Un developpeur web fun et bigarré, frais et motivé en quête de nouvelles aventures dans le monde merveilleux du dev.</p>
-                    <p>Que vous dire sur mes compétences... J'en ai trop ! Plus sérieusement, je vous parlais d'une sombre histoire quête. Cette dernière passe par la découverte des nouvelles technologies et leur mise en partique, la volonté permanente d'améliorer l'écriture de mon code à travers la qualité, l'accessibilité et l'évolutivité.</p>
+                    <h1 id="hello">Salut les p'tits z'amis du code !</h1>
+                    <p>Moi, c'est Julien. Un developpeur web fun et bigarré, frais et motivé en quête de nouvelles aventures dans le monde merveilleux du développement web.</p>
+                    <p>A travers cette quête, je m'implique afin que chaque éqisode se déroule dans un univers fantastique de découverte de nouvelles technologies et leur mise en partique avec une volonté permanente d'améliorer l'écriture de mon code ainsi qu'un soin particulier apporter à la qualité, l'accessibilité et l'évolutivité.</p>
                 </span>
             </div>
             <div class="tabs__canvas">
-                <div  id = "myCanvasContainer"> 
+                <div  id="myCanvasContainer"> 
                     <canvas width ="1200" height ="1200" id="myCanvas"> 
                         <p> Tout ce qui s'y trouve sera remplacé sur les navigateurs prenant en charge l'élément canvas.</p>
                     </canvas> 
@@ -153,8 +153,8 @@
 </template>
 
 <script setup>
+    
     import "/assets/js/tagcanvas.js";
-
 
 </script>
 
