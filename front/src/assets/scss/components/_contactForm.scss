@@ -134,21 +134,20 @@
         color: $colorOrangeShadow;
         background-color: $fontColor;
     }
+}
 
-    #notification {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $colorOrange;
-        background-color: $navBackgroundColor;
-        border-radius: 5px;
-        box-shadow: $colorBlackShadow $shadow;
-        font-family: "Gagalin";
-        font-size: 300%;
-        height: 20vh;
-        width: 40vw;
-        animation: profile_image 2000ms linear both;
-        animation-delay: 0.2s;
-    }
-
+#notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $colorOrange;
+    background-color: $navBackgroundColor;
+    border-radius: 5px;
+    box-shadow: $colorBlackShadow $shadow;
+    font-family: "Gagalin";
+    font-size: 300%;
+    height: 20vh;
+    width: 40vw;
+    animation: profile_image 2000ms linear both;
+    animation-delay: 0.2s;
 }
