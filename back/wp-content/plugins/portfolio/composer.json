@@ -1,0 +1,17 @@
+{
+    "name": "julien/portfolio",
+    "description": "Plugin Wordpress pour le projet portfolio de Julien",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "portfolio\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "JulienPichereau",
+            "homepage": "https://julienpichereau.fr"
+        }
+    ],
+    "require": {}
+}
