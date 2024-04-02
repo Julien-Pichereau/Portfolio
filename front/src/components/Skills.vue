@@ -27,6 +27,7 @@
                     <p>Calme</p>
                     <p>Autonome</p>
                     <p>Consciencieux</p>
+                    <p>Adaptable</p>
                 </div>
                 
             </div>

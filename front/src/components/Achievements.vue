@@ -20,7 +20,7 @@
                 </header>
 
                 <div class="profile-bio">
-                    <a class="a__achievements" href="https://femmesavantes.com/" target="blank">On va voir ?</a>
+                    <a class="a__achievements" href="https://femmesavantes.fr/" target="blank">On va voir ?</a>
                     <p class="p__achievements">Site de la compagnie FemmeSavantes réalisé sur une base Wordpress avec l'éditeur de thème Divi. Ce site est ma première expérience de conception d'un site. Divi permet la construction de la partie front-end de sites internet en no-code.</p>
                 </div>
             </article>
@@ -73,7 +73,7 @@
                 </header>
 
                 <div class="profile-bio">
-                    <a class="a__achievements" href="#" target="blank">On va voir ?</a>
+                    <a class="a__achievements" href="https://julienpichereau.fr" target="blank">On va voir ?</a>
                     <p class="p__achievements">Ben... C'est mon portfolio quoi ! C'est mon troisième projet. Il fait suite à celui de la fin de ma formation chez O'clock : Bricol'Help. Il est construit sur une base Wordpress en headless pour la partie back-end et Sass/Vue.js pour la partie front-end.</p>
                 </div>
             </article>
