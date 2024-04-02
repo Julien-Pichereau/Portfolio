@@ -4,9 +4,14 @@
     "reset-css": "^5.0.2",
     "sass": "^1.70.0",
     "vue": "^3.4.15",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "parcel":"^2.11.0"
   },
   "devDependencies": {
     "@parcel/transformer-vue": "^2.11.0"
+  },
+  "scripts": {
+    "start": "cd front/src && parcel src/index.html",
+    "build": "parcel build"
   }
 }
