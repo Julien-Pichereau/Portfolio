@@ -11,16 +11,18 @@
     
 
     .profile__title {
+        padding-top: 2%;
+        height: 10vh;
         font-size: 150%;
         font-family: "Gagalin";
-        margin-top: 2%;
         opacity: 0.8;
+
     }
     
     .profile__tabs{
+        height: 90vh;
         display: flex;
         align-items: center;
-        margin-bottom: 8%;
         
         @include extra-small {
             flex-direction: column;
@@ -31,18 +33,22 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            text-align: center;
-            width: 50%;
+            text-align: justify;
+            width: 50vw;
             margin: 0% 4%;
             padding: 1%;              
             background-color: $navBackgroundColor;
             border-radius: 10px;
-            box-shadow: $colorFontShadow $shadow;
+            box-shadow: $colorFontShadow $shadow;   
+
             @include extra-small {
-                width: 90%;
+                width: 90vw;
                 margin: 4% 0%;
-                text-align: justify;
               }
+
+            #hello{
+                text-align: center;
+            }
 
         }
 
@@ -51,13 +57,14 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 50%;
+            width: 50vw;
             margin: 0% 1%;
             padding: 1% 0%;
+            block-size: fit-content;
+            
             @include extra-small {
-                width: 90%;
                 margin: 1% 0%;
-            padding: 0% 1%;
+                padding: 0% 1%;
               }
 
             #myCanvasContainer {

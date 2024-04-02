@@ -25,54 +25,46 @@
 
          
         <div v-if="showContactForm" @submit.prevent="submitForm" class="contactForm">
-
-                <div id="div__crossClose">
-                    <button @click="showContactForm = false, showContact = true" id="button__crossClose" class="button">X</button>
+            <div id="div__crossClose">
+                <button @click="showContactForm = false, showContact = true" id="button__crossClose" class="button">X</button>
+            </div>
+            <h1 class="contactForm__title">Formulaire de contact</h1>
+            <form class="form" method="POST">
+                <div class="form__fields">
+                    <label for="name">Nom*</label>
+                    <input type="text" id="name" class="form__fields__container" name="name" placeholder="Engus McGuiver" required>
                 </div>
-                <h1 class="contactForm__title">Formulaire de contact</h1>
-                <form class="form" method="POST">
-                    <div class="form__fields">
-                        <label for="name">Nom*</label>
-                        <input type="text" id="name" class="form__fields__container" name="name" placeholder="Engus McGuiver" required>
-                    </div>
 
-                    <div class="form__fields">
-                        <label for="email">Email*</label>
-                        <input type="email" id="email" class="form__fields__container" name="email" placeholder="mc.guiver@phxfdation.com" required>
-                    </div>
+                <div class="form__fields">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" class="form__fields__container" name="email" placeholder="mc.guiver@phenxfdation.com" required>
+                </div>
 
-                    <div class="form__fields">
-                        <label for="telephone">Téléphone</label>
-                        <input type="text" id="telephone" class="form__fields__container" name="telephone" placeholder="+33 6 5X 0X 4Y 84">
-                    </div>
+                <div class="form__fields">
+                    <label for="telephone">Téléphone</label>
+                    <input type="text" id="telephone" class="form__fields__container" name="telephone" placeholder="+33 6 5X 0X 4Y 84">
+                </div>
 
-                    <div class="form__fields">
-                        <label for="company">Entreprise</label>
-                        <input type="text" id="company" class="form__fields__container" name="compagny" placeholder="Fondation Phoenyx">
-                    </div>
+                <div class="form__fields">
+                    <label for="company">Entreprise</label>
+                    <input type="text" id="company" class="form__fields__container" name="compagny" placeholder="Fondation Phènyx">
+                </div>
 
-                    <div class="form__fields">
-                        <label for="message">Message*</label>
-                        <textarea id="message" class="form__fields__container" name="message" placeholder="Hy Pet, Call me back. Engus" required></textarea>
-                    </div>
-                    <div class="form__mention">
-                        <label id="label">* Champs obligatoires</label>
-                    </div>
-                    <div id="form__button">
-                        <button class="form__button button" type="submit">Envoyer</button>
-                    </div>
-                </form>
-
-                
-                
-            
-                
-                              
-
+                <div class="form__fields">
+                    <label for="message">Message*</label>
+                    <textarea id="message" class="form__fields__container" name="message" placeholder="Hy Peter, Call me back. Engus" required></textarea>
+                </div>
+                <div class="form__mention">
+                    <label id="label">* Champs obligatoires</label>
+                </div>
+                <div id="form__button">
+                    <button class="form__button button" type="submit">Envoyer</button>
+                </div>
+            </form>
         </div>
 
         <div v-if="showNotification" id="notification">
-            <p>Message envoyé !</p>
+            <p id="text__notification">Message envoyé !</p>
         </div>
         
     </section>
