@@ -7,7 +7,7 @@ class AchievementPostType extends PostType {
 
     // ici, dans la classe fille, on définit les données qui sont spécifiques à ce CPT
     const POST_TYPE_KEY = 'achievements';
-    const POST_TYPE_LABEL = 'Achievements';
+    const POST_TYPE_LABEL = 'Réalisations';
     const POST_TYPE_SLUG = 'réalisations';
 
     const CAPABILITIES = [
@@ -32,6 +32,7 @@ class AchievementPostType extends PostType {
             'delete_achievement' => true,
             'edit_others_achievements' => true,
             'delete_others_achievements' => true,
+            'rest_edit_others' => true
         ],
     ];
 }

@@ -5,7 +5,6 @@ namespace Portfolio;
 use Portfolio\Api\Achievement;
 use Portfolio\Classes\Database;
 use Portfolio\PostType\AchievementPostType;
-use Portfolio\Role\AdminRole;
 use Portfolio\Taxonomy\TechnologiesTaxonomy;
 
 class Plugin {
@@ -90,10 +89,7 @@ class Plugin {
      */
     static public function onPluginActivation()
     {
-
-        // déclaration des rôles custom
-        AdminRole::register();
-
+        
         // Associer les caps customs de nos CPT à l'admin
         AchievementPostType::addCaps();
         TechnologiesTaxonomy::addCaps();
@@ -107,9 +103,6 @@ class Plugin {
     static public function onPluginDeactivation()
     {
 
-
-        // déclaration des rôles custom
-        AdminRole::unregister();
         // Dissocier les caps custom de nos CPT et CT de l'admin
         AchievementPostType::removeCaps();
         TechnologiesTaxonomy::removeCaps();
