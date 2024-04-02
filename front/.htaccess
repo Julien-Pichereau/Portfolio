@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^julienpichereau.fr [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.julienpichereau.fr  [NC]
