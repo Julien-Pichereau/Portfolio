@@ -4,9 +4,16 @@
     },
     "config": {
         "allow-plugins": {
-            "johnpbloch/wordpress-core-installer": true
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true
         }
     },
+
+    "scripts": {
+        "autoload": "cd wp-content/plugins/portfoliopluginjp && composer dump-autoload",
+        "reactivate-plugin": "wp plugin deactivate portfoliopluginjp && wp plugin activate portfoliopluginjp"
+    },
+
     "repositories": [
         {
             "type": "composer",

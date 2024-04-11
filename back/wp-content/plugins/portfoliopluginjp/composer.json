@@ -2,21 +2,17 @@
     "name": "julien/portfoliopluginjp",
     "description": "Plugin Wordpress pour le projet portfolio de Julien",
     "type": "project",
-    
+    "autoload": {
+        "psr-4": {
+            "Portfolio\\": "."
+        }
+    },    
     "authors": [
         {
             "name": "JulienPichereau",
             "homepage": "https://julienpichereau.fr"
         }
     ],
-    "require": {},
-    "scripts": {
-        "autoload": "cd wp-content/plugins/portfoliopluginjp && composer dump-autoload",
-        "reactivate-plugin": "wp plugin deactivate portfoliopluginjp && wp plugin activate portfoliopluginjp"
-    },
-    "autoload": {
-        "psr-4": {
-            "Portfolio\\": "."
-        }
-    }
+    "require": {}
+    
 }

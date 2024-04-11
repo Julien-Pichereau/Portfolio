@@ -23,14 +23,14 @@ class PostType {
                 'public' => true, // ce CPT est-il visible ?
                 'has_archive' => true, // ce CPT aura-t-il une page d'archive => une liste
                 'rewrite' => ['slug' => static::POST_TYPE_SLUG], // à chaque fois qu'on change cette valeur (ou à la création du CPT) il faut régénerer les permaliens depuis le backoffice
-                //'capabilities' => static::CAPABILITIES,// on définit le NOM des capabilities qui sont utilisées par ce CPT
-                /*'supports' => [
+                /*'capabilities' => static::CAPABILITIES,// on définit le NOM des capabilities qui sont utilisées par ce CPT*/
+                'supports' => [
                     'title', // Ce CPT gérera les titres
                     'editor', // Ce CPT gérera l'éditeur de texte
                     'thumbnail', // On autorise l'utilisation d'images mises en avant (featured images)
                     'author', // Ce CPT utilisera les auteurs
                     'comments', // Ce CPT gérera les commentaires
-                ],*/
+                ],
                 'show_in_rest' => true,
             ]
         );
